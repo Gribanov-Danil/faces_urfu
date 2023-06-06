@@ -5,9 +5,28 @@
     margin-bottom: 80px;
 }
 
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+
 
 @media (max-width: 1440px) {
-    .header img {
-        width: 100%;
+    .header {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+        margin-bottom: 20px;
     }
 }
