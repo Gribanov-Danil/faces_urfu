@@ -1,0 +1,1 @@
+export const YM_COUNTER = 93813134

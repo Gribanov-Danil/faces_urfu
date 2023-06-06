@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import './App.css';
 import {Header} from "../header/header";
+import {ymPageView} from "../../utils/constants/ym/ymPageView";
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
         script.dataset.dataTwf2sEventId = "2405047"
         script.dataset.dataTimepadWidgetV2 = "2405047"
         document.body.appendChild(script);
-    })
+        ymPageView()
+    }, [])
 
     return (
         <div className="App">
