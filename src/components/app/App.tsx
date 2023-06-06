@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import './App.css';
-import {Header} from "./components/header/header";
+import {Header} from "../header/header";
 
 function App() {
 
@@ -18,7 +18,6 @@ function App() {
     return (
         <div className="App">
             <Header />
-            sdf
             <div className="form__container">
                 <script
                     type="text/javascript" async={true} defer={true} charSet="UTF-8"
