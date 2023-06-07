@@ -9,3 +9,7 @@ declare global {
 export const ymPageView = () => {
     window.ym(YM_COUNTER, 'hit', window.location.href)
 }
+
+export const ymReachGoal = (goal: string) => {
+    window.ym(YM_COUNTER, 'reachGoal', goal)
+}
